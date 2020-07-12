@@ -2,7 +2,7 @@
   "name": "orgadapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://orgadmahluf.github.io/dep",
+  "homepage": "http://orgadmahluf.github.io/testrep",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -13,7 +13,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "dep": "npm run build&&gh-pages -d build",
+    "deploy":"npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
